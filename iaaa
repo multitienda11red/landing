@@ -1,30 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Atención personalizada</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Redprag | Bonos activos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url('https://images.unsplash.com/photo-1606166325683-ccf3a9a4b2c6');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+    }
+    .container {
+      padding: 60px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .logo {
+      font-size: 42px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 30px;
+      color: #facc15;
+      text-shadow: 0 0 15px #facc15;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 30px;
+      line-height: 1.4;
+    }
+    .features {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 18px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      background: #25D366;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 0 20px rgba(37,211,102,0.8);
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 13px;
+      opacity: 0.8;
+    }
+  </style>
 </head>
+<body>
+  <div class="container">
+    <div class="logo">REDPRAG</div>
 
-<body style="margin:0; font-family:Arial; background:#111; color:white; text-align:center;">
+    <h1>¡Tenés regalo de $2500 si llegaste acá!</h1>
 
-  <div style="padding:60px 20px;">
-    <h1>Atención personalizada</h1>
-    <p>Información clara y soporte directo</p>
+    <div class="subtitle">
+      CARGAS RÁPIDAS · EXPERIENCIA EN ATENCIÓN · RESPONSABILIDAD 24 HS
+    </div>
 
-    <a href="https://wa.me/5493434558506" target="_blank"
-       style="display:inline-block; margin-top:20px; padding:15px 25px;
-       background:#25D366; color:white; text-decoration:none; border-radius:8px;">
+    <div class="features">
+      🎰 Juegos online · 📱 Celular y PC · 💸 Pagos claros
+    </div>
+
+    <a class="btn" href="https://wa.me/5491123456789" target="_blank">
       Hablar por WhatsApp
     </a>
 
-    <p style="margin-top:40px; font-size:12px; opacity:0.7;">
-      +18 · Juego responsable
-    </p>
+    <div class="footer">
+      Solo atención a mayores de 18 años, sin excepción.<br>
+      Juego responsable.
+    </div>
   </div>
-
 </body>
 </html>
-/src/index.html
-/public/index.html
-/landing/index.html
